@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160b12">
+  <title>A Little Something for Saji ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+
+    <section id="lockScreen" class="card lock-card">
+      <div class="rose" aria-hidden="true">🌹</div>
+      <p class="eyebrow">A little something for you</p>
+      <h1>For Saji</h1>
+      <p class="subtitle">There is a message waiting behind a little secret.</p>
+
+      <form id="passwordForm" autocomplete="off">
+        <label for="password">Enter the password</label>
+        <div class="input-row">
+          <input id="password" type="password" placeholder="Password" required>
+          <button type="submit">Unlock</button>
+        </div>
+        <p id="error" class="error" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="proposalScreen" class="card proposal-card hidden" aria-hidden="true">
+      <div class="sparkles" aria-hidden="true">✦ ✧ ✦</div>
+
+      <div class="message">
+        <p>To the girl I adore most…</p>
+        <p>To the girl with whom I can truly be myself…</p>
+        <p>To the girl who captured my heart and awakened feelings I can no longer hide…</p>
+        <p>To the girl who means more to me than words could ever explain…</p>
+        <p class="to-you">To you, Saji. ❤️</p>
+      </div>
+
+      <div class="divider"><span>♥</span></div>
+
+      <p class="transition">
+        And after all these feelings, there is only one question left…
+      </p>
+
+      <h2>
+        Will the Beauty<br>
+        marry the Beast?
+      </h2>
+
+      <p class="name">Saji,</p>
+      <p class="question">Will you marry me?</p>
+
+      <div class="ring" aria-hidden="true">💍</div>
+
+      <div class="buttons">
+        <button id="yesBtn" class="yes">Yes ❤️</button>
+        <button id="thinkBtn" class="think">I need to think 😭</button>
+      </div>
+
+      <p id="answer" class="answer" aria-live="polite"></p>
+    </section>
+
+  </main>
+
+  <div id="confetti" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
